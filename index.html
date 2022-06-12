@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calcular</title>
+    <link rel="stylesheet" href="assets\css\style.css">
+    <link rel="stylesheet" href="assets\css\sweetalert2.css">
+    <script src="assets\js\sweetalert2.all.min.js"></script>
+    
+
+</head>
+
+<body>
+    <main>
+        <section>
+            <nav>
+                <img src="assets\img\logo.png" alt="Imagem Logo" id="logo">
+                <p>Ferramenta de aprendizagem de calculo</p>
+                <p>07/06/2022</p>
+            </nav>
+
+            <div class="content">
+
+                <img id="banner" src="assets\img\banner.jpg" alt="Imagem Criança">
+
+
+                <div class="text">
+                    <div class="h1">
+                        <h1>Para ser muito bom amanhã é preciso começar a praticar hoje</h1>
+                    </div>
+
+                    <div class="assignature">
+                        <h3>Prof. Cleiton</h3>
+                        <h3>07 Jun 22</h3>
+                        <h3>16:40</h3>
+                    </div>
+
+                    <div class="resumo">
+                        <p>São nos primeiros anos escolares que as crianças aprendem os fundamentos da matemática,
+                            inclusive as quatro operações - soma, subtração, multiplicação e divisão. Qualquer
+                            dificuldade que a criança tenha nessa fase se refletirá por toda a sua vida escolar :(
+                        </p>
+                        <p>
+                            Aqui você e seu filho irão encontrar exercícios relacionados ao conteúdo ensinado nós
+                            primeiros anos escolares e buscara aperfeiçoar seu conhecimento nas operações básicas;
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+        <aside>
+         
+            <div class="upper">
+                <h3 id="pontos">Você tem 0 pontos</h3>
+
+                <button id="sortearDesafio" type="submit">Sortear Desafio</button>
+
+            </div>
+
+            <div class="corpo">
+                <div class="question">
+                    <h3 class="letrasQuestion">Quanto é:</h3>
+                </div>
+                <div class="soma">
+                    <input type="text" class="botaoSorteador" id="botaoUm" maxlength="2">
+                    <input class="botaoSorteador" id="operador"></input>
+                    <input type="text" class="botaoSorteador" id="botaoDois" maxlength="2">
+                </div>
+        
+                <div class="secondQuestion">
+                    <h3 class="letrasQuestion">Sua Resposta:</h3>
+                </div>
+                <div id="resultados">
+                    <input type="text" id="result">
+                    <button id="validar">Validar</button>
+                    <button id="novoJogo">Novo Jogo</button>
+                </div>
+
+            </div>
+        </aside>
+    </main>
+    <script src="assets\js\script.js"></script>
+    
+</body>
+
+</html>
